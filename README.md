@@ -383,4 +383,4 @@ set_next_entity(struct  cfs_rq *cfs_rq, struct  sched_entity *se)
 而__dequeue_entity不会将on_rq清零，只是将进程从红黑树上取下，
 我觉得一般用在进程将获得CPU的情况，这时需要将它从红黑树取下，但是还要保留在rq上。
 
-###参考博客：[http://blog.csdn.net/peimichael/article/details/5218335](http://blog.csdn.net/peimichael/article/details/5218335)
+####参考博客：[http://blog.csdn.net/peimichael/article/details/5218335](http://blog.csdn.net/peimichael/article/details/5218335)
